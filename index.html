@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landscapeTwo</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="menuToggle" onclick="toggleMenu()"></div>
+    <section class="navigation">
+
+        <nav class="navArea">
+            <ul>
+                <li><a onmouseover="imgSlider('./img/box.png')">Box</a></li>
+                <li><a onmouseover="imgSlider('./img/sphere.png')">Sphere</a></li>
+                <li><a onmouseover="imgSlider('./img/piramid.png')">Piramid</a></li>
+            </ul>
+        </nav>
+
+        <div class="imgArea">
+            <img src='./img/box.png' id="shapeImages" alt="">
+        </div>
+
+
+    </section>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
